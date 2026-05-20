@@ -16,7 +16,7 @@ export default function Home() {
   const videoRef = useRef(null);
   
   useEffect(() => {
-    const videoPath = isMobileDevice() ? '/hero-video-mobile.mp4' : '/hero-video-desktop.mp4';
+    const videoPath = isMobileDevice() ? '/hero-video-mobile-new.mp4' : '/hero-video-desktop-new.mp4';
     
     const timer = setTimeout(() => {
       setVideoSrc(videoPath);
@@ -44,7 +44,7 @@ export default function Home() {
           muted 
           playsInline
           preload="none"
-          poster="/images/hero-poster.webp"
+          poster="/images/hero-image-new.webp"
           onCanPlay={() => setVideoLoaded(true)}
         >
           {videoSrc && <source src={videoSrc} type="video/mp4" />}
