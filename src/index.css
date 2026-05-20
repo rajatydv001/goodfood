@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Eagle Horizon';
+  src: url('/fonts/EagleHorizonP.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #008000;
+  --color-primary-dark: #006400;
+  --color-secondary: #00AA00;
+  --color-accent: #00CC00;
+  --color-cream: #FFFFFF;
+  --color-cream-dark: #f0f0f0;
+  --color-text: #1a1a1a;
+  --color-text-light: #666666;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--color-text);
+  background: var(--color-white);
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+iframe[src*="youtube"] {
+  pointer-events: none;
+}
+
+iframe[src*="youtube"]::-webkit-scrollbar {
+  display: none;
+}
