@@ -1,25 +1,53 @@
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { menuItems, merchandise } from '../data/menuData';
 import MenuCard from '../components/menu/MenuCard';
 
+function isMobileDevice() {
+  if (typeof window === 'undefined') return false;
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    || window.innerWidth < 768;
+}
+
 export default function Home() {
-  const foodItems = menuItems.slice(0, 8);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoSrc, setVideoSrc] = useState(null);
+  const videoRef = useRef(null);
+  
+  useEffect(() => {
+    const videoPath = isMobileDevice() ? '/hero-video-mobile.mp4' : '/hero-video-desktop.mp4';
+    
+    const timer = setTimeout(() => {
+      setVideoSrc(videoPath);
+    }, 2000);
+    
+    return () => clearTimeout(timer);
+  }, []);
+  
+  useEffect(() => {
+    if (videoSrc && videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().catch(() => {});
+    }
+  }, [videoSrc]);
 
   return (
     <div>
       {/* Hero Section */}
       <section className="relative h-screen overflow-hidden">
         <video 
+          ref={videoRef}
           className="fixed top-0 left-0 w-full h-full object-cover -z-10"
           autoPlay 
           loop 
           muted 
           playsInline
-          preload="metadata"
+          preload="none"
           poster="/images/hero-poster.webp"
+          onCanPlay={() => setVideoLoaded(true)}
         >
-          <source src="/hero-video-optimized.mp4" type="video/mp4" />
+          {videoSrc && <source src={videoSrc} type="video/mp4" />}
         </video>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 h-full flex flex-col justify-center pt-16">
@@ -56,14 +84,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             {/* FOOD Container - Clickable */}
             <Link to="/menu" className="block border-4 border-[#008000] rounded-xl p-8 md:p-16 text-center hover:shadow-xl transition-shadow group relative overflow-hidden h-48 md:h-64">
-              <img src="/food-bg.jpg" alt="Food" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="/food-bg.jpg" alt="Food" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
               <div className="absolute inset-0 bg-black/30"></div>
               <h2 className="relative text-2xl md:text-4xl font-bold text-white group-hover:scale-105 transition-transform" style={{ fontFamily: "'Eagle Horizon', sans-serif" }}>FOOD</h2>
             </Link>
 
             {/* MERCH Container - Clickable */}
             <Link to="/merch" className="block border-4 border-[#008000] rounded-xl p-8 md:p-16 text-center hover:shadow-xl transition-shadow group relative overflow-hidden h-48 md:h-64">
-              <img src="/merch-bg.jpg" alt="Merch" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="/merch-bg.jpg" alt="Merch" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
               <div className="absolute inset-0 bg-black/30"></div>
               <h2 className="relative text-2xl md:text-4xl font-bold text-white group-hover:scale-105 transition-transform" style={{ fontFamily: "'Eagle Horizon', sans-serif" }}>MERCH</h2>
             </Link>
