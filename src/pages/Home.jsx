@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { menuItems, merchandise } from '../data/menuData';
@@ -11,26 +11,16 @@ function isMobileDevice() {
 }
 
 export default function Home() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-  const [videoSrc, setVideoSrc] = useState(null);
   const videoRef = useRef(null);
   
   useEffect(() => {
-    const videoPath = isMobileDevice() ? '/hero-video-mobile-new.mp4' : '/hero-video-desktop-new.mp4';
-    
-    const timer = setTimeout(() => {
-      setVideoSrc(videoPath);
-    }, 2000);
-    
-    return () => clearTimeout(timer);
-  }, []);
-  
-  useEffect(() => {
-    if (videoSrc && videoRef.current) {
+    if (videoRef.current) {
       videoRef.current.load();
       videoRef.current.play().catch(() => {});
     }
-  }, [videoSrc]);
+  }, []);
+
+  const videoSrc = isMobileDevice() ? '/hero-video-mobile-new.mp4' : '/hero-video-desktop-new.mp4';
 
   return (
     <div>
@@ -43,11 +33,10 @@ export default function Home() {
           loop 
           muted 
           playsInline
-          preload="none"
+          preload="metadata"
           poster="/images/hero-image-new.webp"
-          onCanPlay={() => setVideoLoaded(true)}
         >
-          {videoSrc && <source src={videoSrc} type="video/mp4" />}
+          <source src={videoSrc} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 h-full flex flex-col justify-center pt-16">
