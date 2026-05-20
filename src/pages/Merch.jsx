@@ -20,6 +20,7 @@ function MerchCard({ item }) {
         <img
           src={item.image}
           alt={item.name}
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         {/* Logo Overlay */}
@@ -65,7 +66,7 @@ export default function Merch() {
       <div 
         className="fixed inset-0 -z-10"
         style={{
-          backgroundImage: 'url(/images/merch-bg-new.png)',
+          backgroundImage: 'url(/images/merch-bg-new-1200w.webp)',
           backgroundSize: 'auto 100%',
           backgroundPosition: 'center'
         }}

@@ -6,7 +6,7 @@ export const menuItems = [
     description: "A refreshing tropical fruit bowl made with crunchy granola, fresh banana slices, juicy strawberries, sweet pineapple chunks, coconut flakes, and rich caramel drizzle.",
     price: 750,
     category: "acai-bowl",
-    image: "/images/menu/Tropical_Bliss.png"
+    image: "/images/menu/Tropical_Bliss-800w.webp"
   },
   {
     id: "berry-cocoa-delight",
@@ -14,7 +14,7 @@ export const menuItems = [
     description: "A delicious mix of fresh berries and chocolate goodness. This bowl combines crunchy granola with bananas, strawberries, and cocoa nibs.",
     price: 750,
     category: "acai-bowl",
-    image: "/images/menu/Berry_Cocoa_Delight.png"
+    image: "/images/menu/Berry_Cocoa_Delight-800w.webp"
   },
   {
     id: "power-bowl",
@@ -22,7 +22,7 @@ export const menuItems = [
     description: "A nutrient-packed superfood bowl loaded with fresh fruits, nuts, and seeds. Designed for fitness lovers and health-conscious customers.",
     price: 950,
     category: "acai-bowl",
-    image: "/images/menu/Power_Bowl.png"
+    image: "/images/menu/Power_Bowl-800w.webp"
   },
   {
     id: "desi-caramel-apple",
@@ -30,7 +30,7 @@ export const menuItems = [
     description: "A desi-style sweet bowl with crunchy apples, banana slices, cinnamon flavor, and rich caramel drizzle over granola.",
     price: 750,
     category: "acai-bowl",
-    image: "/images/menu/Desi_Caramel_Apple.png"
+    image: "/images/menu/Desi_Caramel_Apple-800w.webp"
   },
   {
     id: "choco-smores",
@@ -38,7 +38,7 @@ export const menuItems = [
     description: "A dessert-style granola bowl inspired by classic s'mores flavor. Loaded with chocolate and marshmallows for a fun sweet treat.",
     price: 750,
     category: "acai-bowl",
-    image: "/images/menu/Choco_Smores.png"
+    image: "/images/menu/Choco_Smores-800w.webp"
   },
   {
     id: "nutty-chocolate-fusion",
@@ -46,7 +46,7 @@ export const menuItems = [
     description: "A rich and creamy bowl with nuts, berries, chocolate, and peanut butter. A perfect combination of taste and nutrition.",
     price: 850,
     category: "acai-bowl",
-    image: "/images/menu/Nutty_Chocolate_Fusion.png"
+    image: "/images/menu/Nutty_Chocolate_Fusion-800w.webp"
   },
   {
     id: "rang-de-bowl",
@@ -54,7 +54,7 @@ export const menuItems = [
     description: "A colorful fruit-loaded bowl filled with fresh tropical fruits and natural sweetness.",
     price: 750,
     category: "acai-bowl",
-    image: "/images/menu/Rang_De_Bowl.png"
+    image: "/images/menu/Rang_De_Bowl-800w.webp"
   },
   {
     id: "nutella-crunch",
@@ -62,7 +62,7 @@ export const menuItems = [
     description: "A creamy chocolate bowl topped with fresh fruits and coconut flakes for a crunchy and satisfying experience.",
     price: 750,
     category: "acai-bowl",
-    image: "/images/menu/Nutella_Crunch.png"
+    image: "/images/menu/Nutella_Crunch-800w.webp"
   }
 ];
 
@@ -74,7 +74,7 @@ export const smoothies = [
     description: "Mixed berries, banana, almond milk",
     price: 580,
     category: "smoothie",
-    image: "/images/menu/smoothie-default.png"
+    image: "/images/menu/smoothie-default-800w.webp"
   },
   {
     id: "tropical-paradise",
@@ -82,7 +82,7 @@ export const smoothies = [
     description: "Mango, pineapple, coconut milk",
     price: 580,
     category: "smoothie",
-    image: "/images/menu/smoothie-2.png"
+    image: "/images/menu/smoothie-2-800w.webp"
   },
   {
     id: "green-machine",
@@ -90,7 +90,7 @@ export const smoothies = [
     description: "Spinach, kale, banana, almond milk",
     price: 650,
     category: "smoothie",
-    image: "/images/menu/smoothie-3.png"
+    image: "/images/menu/smoothie-3-800w.webp"
   },
   {
     id: "chocolate-banana",
@@ -98,7 +98,7 @@ export const smoothies = [
     description: "Banana, cocoa, almond butter",
     price: 580,
     category: "smoothie",
-    image: "/images/menu/smoothie-4.png"
+    image: "/images/menu/smoothie-4-800w.webp"
   },
   {
     id: "peanut-butter-cup",
@@ -106,7 +106,7 @@ export const smoothies = [
     description: "Chocolate, peanut butter, banana",
     price: 650,
     category: "smoothie",
-    image: "/images/menu/smoothie-5.png"
+    image: "/images/menu/smoothie-5-800w.webp"
   },
   {
     id: "acai-boost",
@@ -114,7 +114,7 @@ export const smoothies = [
     description: "Acai, banana, strawberry, coconut milk",
     price: 720,
     category: "smoothie",
-    image: "/images/menu/smoothie-6.png"
+    image: "/images/menu/smoothie-6-800w.webp"
   }
 ];
 

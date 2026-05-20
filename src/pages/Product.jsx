@@ -3,6 +3,26 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Plus, Minus, ShoppingCart } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { menuItems, smoothies } from '../data/menuData';
+import imageManifest from '../imageManifest.json';
+
+function getResponsiveSrcset(imagePath) {
+  const normalizedPath = imagePath.replace('/images/', '');
+  const manifestEntry = imageManifest[normalizedPath];
+  
+  if (manifestEntry && manifestEntry.sizes) {
+    const sizes = Object.entries(manifestEntry.sizes)
+      .map(([width, data]) => `${data.path} ${width}w`)
+      .join(', ');
+    return sizes;
+  }
+  return imagePath;
+}
+
+function getFallbackSrc(imagePath) {
+  const normalizedPath = imagePath.replace('/images/', '');
+  const manifestEntry = imageManifest[normalizedPath];
+  return manifestEntry?.fallback || imagePath;
+}
 
 export default function Product() {
   const { id } = useParams();
@@ -34,6 +54,9 @@ export default function Product() {
     navigate('/cart');
   };
 
+  const srcset = getResponsiveSrcset(item.image);
+  const fallbackSrc = getFallbackSrc(item.image);
+
   return (
     <div className="min-h-screen bg-[#f0f0f0] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +70,9 @@ export default function Product() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="rounded-2xl overflow-hidden shadow-xl aspect-video">
             <img
-              src={item.image}
+              src={fallbackSrc}
+              srcSet={srcset}
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt={item.name}
               className="w-full h-full object-cover"
             />

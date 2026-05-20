@@ -1,0 +1,699 @@
+{
+  "locations-bg.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/locations-bg-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/locations-bg-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/locations-bg-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/locations-bg-1200w.webp"
+  },
+  "menu/Berry_Cocoa_Delight.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Berry_Cocoa_Delight-400w.webp",
+        "size": 33360
+      },
+      "800": {
+        "path": "/images/menu/Berry_Cocoa_Delight-800w.webp",
+        "size": 99578
+      },
+      "1200": {
+        "path": "/images/menu/Berry_Cocoa_Delight-1200w.webp",
+        "size": 175402
+      }
+    },
+    "fallback": "/images/menu/Berry_Cocoa_Delight-1200w.webp"
+  },
+  "menu/Choco_Smores.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Choco_Smores-400w.webp",
+        "size": 35814
+      },
+      "800": {
+        "path": "/images/menu/Choco_Smores-800w.webp",
+        "size": 111370
+      },
+      "1200": {
+        "path": "/images/menu/Choco_Smores-1200w.webp",
+        "size": 192390
+      }
+    },
+    "fallback": "/images/menu/Choco_Smores-1200w.webp"
+  },
+  "menu/Desi_Caramel_Apple.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Desi_Caramel_Apple-400w.webp",
+        "size": 34904
+      },
+      "800": {
+        "path": "/images/menu/Desi_Caramel_Apple-800w.webp",
+        "size": 109108
+      },
+      "1200": {
+        "path": "/images/menu/Desi_Caramel_Apple-1200w.webp",
+        "size": 192348
+      }
+    },
+    "fallback": "/images/menu/Desi_Caramel_Apple-1200w.webp"
+  },
+  "menu/Nutella_Crunch.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Nutella_Crunch-400w.webp",
+        "size": 37188
+      },
+      "800": {
+        "path": "/images/menu/Nutella_Crunch-800w.webp",
+        "size": 112314
+      },
+      "1200": {
+        "path": "/images/menu/Nutella_Crunch-1200w.webp",
+        "size": 205128
+      }
+    },
+    "fallback": "/images/menu/Nutella_Crunch-1200w.webp"
+  },
+  "menu/Nutty_Chocolate_Fusion.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Nutty_Chocolate_Fusion-400w.webp",
+        "size": 37136
+      },
+      "800": {
+        "path": "/images/menu/Nutty_Chocolate_Fusion-800w.webp",
+        "size": 113126
+      },
+      "1200": {
+        "path": "/images/menu/Nutty_Chocolate_Fusion-1200w.webp",
+        "size": 203066
+      }
+    },
+    "fallback": "/images/menu/Nutty_Chocolate_Fusion-1200w.webp"
+  },
+  "menu/Power_Bowl.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Power_Bowl-400w.webp",
+        "size": 36794
+      },
+      "800": {
+        "path": "/images/menu/Power_Bowl-800w.webp",
+        "size": 114564
+      },
+      "1200": {
+        "path": "/images/menu/Power_Bowl-1200w.webp",
+        "size": 206558
+      }
+    },
+    "fallback": "/images/menu/Power_Bowl-1200w.webp"
+  },
+  "menu/Rang_De_Bowl.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Rang_De_Bowl-400w.webp",
+        "size": 35190
+      },
+      "800": {
+        "path": "/images/menu/Rang_De_Bowl-800w.webp",
+        "size": 109572
+      },
+      "1200": {
+        "path": "/images/menu/Rang_De_Bowl-1200w.webp",
+        "size": 201816
+      }
+    },
+    "fallback": "/images/menu/Rang_De_Bowl-1200w.webp"
+  },
+  "menu/Tropical_Bliss.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/Tropical_Bliss-400w.webp",
+        "size": 33570
+      },
+      "800": {
+        "path": "/images/menu/Tropical_Bliss-800w.webp",
+        "size": 100592
+      },
+      "1200": {
+        "path": "/images/menu/Tropical_Bliss-1200w.webp",
+        "size": 172204
+      }
+    },
+    "fallback": "/images/menu/Tropical_Bliss-1200w.webp"
+  },
+  "menu/berry-cocoa-delight.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/berry-cocoa-delight-400w.webp",
+        "size": 37528
+      },
+      "800": {
+        "path": "/images/menu/berry-cocoa-delight-800w.webp",
+        "size": 115184
+      },
+      "1200": {
+        "path": "/images/menu/berry-cocoa-delight-1200w.webp",
+        "size": 196184
+      }
+    },
+    "fallback": "/images/menu/berry-cocoa-delight-1200w.webp"
+  },
+  "menu/choco-smores.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/choco-smores-400w.webp",
+        "size": 40586
+      },
+      "800": {
+        "path": "/images/menu/choco-smores-800w.webp",
+        "size": 127414
+      },
+      "1200": {
+        "path": "/images/menu/choco-smores-1200w.webp",
+        "size": 226988
+      }
+    },
+    "fallback": "/images/menu/choco-smores-1200w.webp"
+  },
+  "menu/desi-caramel-apple.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/desi-caramel-apple-400w.webp",
+        "size": 39554
+      },
+      "800": {
+        "path": "/images/menu/desi-caramel-apple-800w.webp",
+        "size": 123298
+      },
+      "1200": {
+        "path": "/images/menu/desi-caramel-apple-1200w.webp",
+        "size": 217756
+      }
+    },
+    "fallback": "/images/menu/desi-caramel-apple-1200w.webp"
+  },
+  "menu/nutella-crunch.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/nutella-crunch-400w.webp",
+        "size": 42064
+      },
+      "800": {
+        "path": "/images/menu/nutella-crunch-800w.webp",
+        "size": 134396
+      },
+      "1200": {
+        "path": "/images/menu/nutella-crunch-1200w.webp",
+        "size": 250416
+      }
+    },
+    "fallback": "/images/menu/nutella-crunch-1200w.webp"
+  },
+  "menu/nutty-chocolate-fusion.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/nutty-chocolate-fusion-400w.webp",
+        "size": 41316
+      },
+      "800": {
+        "path": "/images/menu/nutty-chocolate-fusion-800w.webp",
+        "size": 127570
+      },
+      "1200": {
+        "path": "/images/menu/nutty-chocolate-fusion-1200w.webp",
+        "size": 222994
+      }
+    },
+    "fallback": "/images/menu/nutty-chocolate-fusion-1200w.webp"
+  },
+  "menu/power-bowl.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/power-bowl-400w.webp",
+        "size": 41534
+      },
+      "800": {
+        "path": "/images/menu/power-bowl-800w.webp",
+        "size": 130094
+      },
+      "1200": {
+        "path": "/images/menu/power-bowl-1200w.webp",
+        "size": 236826
+      }
+    },
+    "fallback": "/images/menu/power-bowl-1200w.webp"
+  },
+  "menu/rang-de-bowl.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/rang-de-bowl-400w.webp",
+        "size": 39754
+      },
+      "800": {
+        "path": "/images/menu/rang-de-bowl-800w.webp",
+        "size": 124044
+      },
+      "1200": {
+        "path": "/images/menu/rang-de-bowl-1200w.webp",
+        "size": 226428
+      }
+    },
+    "fallback": "/images/menu/rang-de-bowl-1200w.webp"
+  },
+  "menu/smoothie-2.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/smoothie-2-400w.webp",
+        "size": 27936
+      },
+      "800": {
+        "path": "/images/menu/smoothie-2-800w.webp",
+        "size": 81786
+      },
+      "1200": {
+        "path": "/images/menu/smoothie-2-1200w.webp",
+        "size": 148534
+      }
+    },
+    "fallback": "/images/menu/smoothie-2-1200w.webp"
+  },
+  "menu/smoothie-3.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/smoothie-3-400w.webp",
+        "size": 30180
+      },
+      "800": {
+        "path": "/images/menu/smoothie-3-800w.webp",
+        "size": 96520
+      },
+      "1200": {
+        "path": "/images/menu/smoothie-3-1200w.webp",
+        "size": 175954
+      }
+    },
+    "fallback": "/images/menu/smoothie-3-1200w.webp"
+  },
+  "menu/smoothie-4.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/smoothie-4-400w.webp",
+        "size": 28950
+      },
+      "800": {
+        "path": "/images/menu/smoothie-4-800w.webp",
+        "size": 86736
+      },
+      "1200": {
+        "path": "/images/menu/smoothie-4-1200w.webp",
+        "size": 161742
+      }
+    },
+    "fallback": "/images/menu/smoothie-4-1200w.webp"
+  },
+  "menu/smoothie-5.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/smoothie-5-400w.webp",
+        "size": 30498
+      },
+      "800": {
+        "path": "/images/menu/smoothie-5-800w.webp",
+        "size": 94074
+      },
+      "1200": {
+        "path": "/images/menu/smoothie-5-1200w.webp",
+        "size": 174336
+      }
+    },
+    "fallback": "/images/menu/smoothie-5-1200w.webp"
+  },
+  "menu/smoothie-6.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/smoothie-6-400w.webp",
+        "size": 33636
+      },
+      "800": {
+        "path": "/images/menu/smoothie-6-800w.webp",
+        "size": 111254
+      },
+      "1200": {
+        "path": "/images/menu/smoothie-6-1200w.webp",
+        "size": 208866
+      }
+    },
+    "fallback": "/images/menu/smoothie-6-1200w.webp"
+  },
+  "menu/smoothie-default.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/smoothie-default-400w.webp",
+        "size": 29584
+      },
+      "800": {
+        "path": "/images/menu/smoothie-default-800w.webp",
+        "size": 88232
+      },
+      "1200": {
+        "path": "/images/menu/smoothie-default-1200w.webp",
+        "size": 152886
+      }
+    },
+    "fallback": "/images/menu/smoothie-default-1200w.webp"
+  },
+  "menu/tropical-bliss.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu/tropical-bliss-400w.webp",
+        "size": 38120
+      },
+      "800": {
+        "path": "/images/menu/tropical-bliss-800w.webp",
+        "size": 111766
+      },
+      "1200": {
+        "path": "/images/menu/tropical-bliss-1200w.webp",
+        "size": 197142
+      }
+    },
+    "fallback": "/images/menu/tropical-bliss-1200w.webp"
+  },
+  "menu-bg.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu-bg-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/menu-bg-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/menu-bg-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/menu-bg-1200w.webp"
+  },
+  "menu-hero-bg.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/menu-hero-bg-400w.webp",
+        "size": 23630
+      },
+      "800": {
+        "path": "/images/menu-hero-bg-800w.webp",
+        "size": 70276
+      },
+      "1200": {
+        "path": "/images/menu-hero-bg-1200w.webp",
+        "size": 122288
+      }
+    },
+    "fallback": "/images/menu-hero-bg-1200w.webp"
+  },
+  "merch-bg-new.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/merch-bg-new-400w.webp",
+        "size": 21702
+      },
+      "800": {
+        "path": "/images/merch-bg-new-800w.webp",
+        "size": 69486
+      },
+      "1200": {
+        "path": "/images/merch-bg-new-1200w.webp",
+        "size": 137410
+      }
+    },
+    "fallback": "/images/merch-bg-new-1200w.webp"
+  },
+  "our mission/chat-img-10.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/our mission/chat-img-10-400w.webp",
+        "size": 19626
+      },
+      "800": {
+        "path": "/images/our mission/chat-img-10-800w.webp",
+        "size": 56172
+      },
+      "1200": {
+        "path": "/images/our mission/chat-img-10-1200w.webp",
+        "size": 97048
+      }
+    },
+    "fallback": "/images/our mission/chat-img-10-1200w.webp"
+  },
+  "our mission/chat-img-8.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/our mission/chat-img-8-400w.webp",
+        "size": 11748
+      },
+      "800": {
+        "path": "/images/our mission/chat-img-8-800w.webp",
+        "size": 34640
+      },
+      "1200": {
+        "path": "/images/our mission/chat-img-8-1200w.webp",
+        "size": 75828
+      }
+    },
+    "fallback": "/images/our mission/chat-img-8-1200w.webp"
+  },
+  "our mission/chat-img.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/our mission/chat-img-400w.webp",
+        "size": 30554
+      },
+      "800": {
+        "path": "/images/our mission/chat-img-800w.webp",
+        "size": 78654
+      },
+      "1200": {
+        "path": "/images/our mission/chat-img-1200w.webp",
+        "size": 140950
+      }
+    },
+    "fallback": "/images/our mission/chat-img-1200w.webp"
+  },
+  "our mission/fruit-salad.jpg": {
+    "sizes": {
+      "400": {
+        "path": "/images/our mission/fruit-salad-400w.webp",
+        "size": 53000
+      },
+      "800": {
+        "path": "/images/our mission/fruit-salad-800w.webp",
+        "size": 178194
+      },
+      "1200": {
+        "path": "/images/our mission/fruit-salad-1200w.webp",
+        "size": 357694
+      }
+    },
+    "fallback": "/images/our mission/fruit-salad-1200w.webp"
+  },
+  "our-mission-bg.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/our-mission-bg-400w.webp",
+        "size": 30834
+      },
+      "800": {
+        "path": "/images/our-mission-bg-800w.webp",
+        "size": 82930
+      },
+      "1200": {
+        "path": "/images/our-mission-bg-1200w.webp",
+        "size": 152762
+      }
+    },
+    "fallback": "/images/our-mission-bg-1200w.webp"
+  },
+  "stores/store-1.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-1-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-1-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-1-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-1-1200w.webp"
+  },
+  "stores/store-10.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-10-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-10-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-10-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-10-1200w.webp"
+  },
+  "stores/store-2.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-2-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-2-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-2-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-2-1200w.webp"
+  },
+  "stores/store-3.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-3-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-3-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-3-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-3-1200w.webp"
+  },
+  "stores/store-4.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-4-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-4-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-4-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-4-1200w.webp"
+  },
+  "stores/store-5.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-5-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-5-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-5-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-5-1200w.webp"
+  },
+  "stores/store-6.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-6-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-6-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-6-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-6-1200w.webp"
+  },
+  "stores/store-7.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-7-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-7-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-7-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-7-1200w.webp"
+  },
+  "stores/store-8.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-8-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-8-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-8-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-8-1200w.webp"
+  },
+  "stores/store-9.png": {
+    "sizes": {
+      "400": {
+        "path": "/images/stores/store-9-400w.webp",
+        "size": 46382
+      },
+      "800": {
+        "path": "/images/stores/store-9-800w.webp",
+        "size": 143398
+      },
+      "1200": {
+        "path": "/images/stores/store-9-1200w.webp",
+        "size": 273906
+      }
+    },
+    "fallback": "/images/stores/store-9-1200w.webp"
+  }
+}

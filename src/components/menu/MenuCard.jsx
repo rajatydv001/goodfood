@@ -2,6 +2,26 @@ import { Plus } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import imageManifest from '../../imageManifest.json';
+
+function getResponsiveSrcset(imagePath) {
+  const normalizedPath = imagePath.replace('/images/', '');
+  const manifestEntry = imageManifest[normalizedPath];
+  
+  if (manifestEntry && manifestEntry.sizes) {
+    const sizes = Object.entries(manifestEntry.sizes)
+      .map(([width, data]) => `${data.path} ${width}w`)
+      .join(', ');
+    return sizes;
+  }
+  return imagePath;
+}
+
+function getFallbackSrc(imagePath) {
+  const normalizedPath = imagePath.replace('/images/', '');
+  const manifestEntry = imageManifest[normalizedPath];
+  return manifestEntry?.fallback || imagePath;
+}
 
 export default function MenuCard({ item, showLogo = false }) {
   const { addItem } = useCart();
@@ -19,6 +39,9 @@ export default function MenuCard({ item, showLogo = false }) {
     navigate(`/product/${item.id}`);
   };
 
+  const srcset = getResponsiveSrcset(item.image);
+  const fallbackSrc = getFallbackSrc(item.image);
+
   return (
     <div
       className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow cursor-pointer group h-full flex flex-col"
@@ -26,8 +49,11 @@ export default function MenuCard({ item, showLogo = false }) {
     >
       <div className="relative aspect-video w-full flex-shrink-0 overflow-hidden">
         <img
-          src={item.image}
+          src={fallbackSrc}
+          srcSet={srcset}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           alt={item.name}
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         {showLogo && (

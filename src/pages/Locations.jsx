@@ -8,7 +8,7 @@ export default function Locations() {
       <div 
         className="fixed inset-0 -z-10"
         style={{
-          backgroundImage: 'url(/images/locations-bg.png)',
+          backgroundImage: 'url(/images/locations-bg-1200w.webp)',
           backgroundSize: '100% 100%',
           backgroundPosition: 'top center'
         }}

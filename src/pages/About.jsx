@@ -20,7 +20,7 @@ export default function About() {
       <div 
         className="fixed inset-0 -z-10"
         style={{
-          backgroundImage: 'url(/images/our-mission-bg.png)',
+          backgroundImage: 'url(/images/our-mission-bg-1200w.webp)',
           backgroundSize: 'auto 100%',
           backgroundPosition: 'center'
         }}

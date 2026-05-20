@@ -24,7 +24,7 @@ export default function Menu() {
       <div 
         className="fixed inset-0 -z-10"
         style={{
-          backgroundImage: 'url(/images/menu-hero-bg.png)',
+          backgroundImage: 'url(/images/menu-hero-bg-1200w.webp)',
           backgroundSize: 'auto 100%',
           backgroundPosition: 'center'
         }}
