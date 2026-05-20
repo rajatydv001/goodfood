@@ -16,8 +16,10 @@ export default function Home() {
           loop 
           muted 
           playsInline
+          preload="metadata"
+          poster="/images/hero-poster.webp"
         >
-          <source src="/hero-video.mp4" type="video/mp4" />
+          <source src="/hero-video-optimized.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 h-full flex flex-col justify-center pt-16">
@@ -28,7 +30,7 @@ export default function Home() {
             <span className="text-sm sm:text-xl md:text-3xl lg:text-4xl mx-1 sm:mx-2 align-middle">·</span>
             <span className="text-sm sm:text-xl md:text-3xl lg:text-4xl align-middle">HEALTHY</span>
           </h1>
-          <p className="text-sm sm:text-base md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto" style={{ fontFamily: "'Poppins', sans-serif" }}>
+          <p className="text-sm sm:text-base md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto font-sans">
             Live the best life
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
